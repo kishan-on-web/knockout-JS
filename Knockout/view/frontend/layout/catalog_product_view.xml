@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <referenceContainer name="product.info.main" >
+        <block name="product.timer" template="KK_Knockout::knockoutExe.phtml" />
+    </referenceContainer>
+</page>
+
+
+
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+  <body>
+    <referenceBlock name="content">
+      <block class="Magento\Framework\View\Element\Template" name="knockoutexe" template="KK_Knockout::knockoutExe.phtml"/>
+    </referenceBlock>
+  </body>
+</page> -->

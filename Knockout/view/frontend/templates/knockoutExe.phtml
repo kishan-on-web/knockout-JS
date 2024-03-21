@@ -1,0 +1,23 @@
+<?php
+/**
+ * @var Magento\Catalog\Block\Product\View $block
+ */
+?>
+
+<div id="knockout-example" data-bind="scope: 'ko-example'">
+    <!-- ko template: getTemplate() --><!-- /ko -->
+</div>
+    <script type="text/x-magento-init">
+    {
+        "#knockout-example": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "ko-example": {
+                        "template": "KK_Knockout/knockout-test-example",
+                        "component": "KK_Knockout/js/kojs"
+                    }
+                }
+            }
+        }
+    }
+    </script>
